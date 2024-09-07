@@ -27,7 +27,7 @@ switch (day) {
     console.log(`${day} is not a day`)
 }
 */
-let testScore = 85;
+let testScore = 50;
 let letterGrade;
 
 switch (true) {
@@ -46,3 +46,4 @@ switch (true) {
   default:
     letterGrade = "F";
 }
+console.log(letterGrade);
