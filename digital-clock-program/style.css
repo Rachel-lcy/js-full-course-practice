@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  background-image: url(image/amanpreet-deol-EzAfeKfFXAg-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#clock {
+
+  font-family: monospace;
+  font-size: 6.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: aliceblue;
+  backdrop-filter: blur(3px);
+  background-color: rgba(183, 71, 71, 0.082);
+  opacity: 100%;
+  width: 100%;
+}
