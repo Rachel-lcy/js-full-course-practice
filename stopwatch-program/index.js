@@ -10,12 +10,10 @@ function start() {
     startTime = Date.now() - elapsedTime;
     timer = setInterval(update, 10);
     isRunning = true;
-
   }
 }
 
 function stop() {
-
   if (isRunning) {
     clearInterval(timer);
     elapsedTime = Date.now - startTime;
